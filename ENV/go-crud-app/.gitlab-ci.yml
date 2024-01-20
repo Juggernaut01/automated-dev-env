@@ -1,0 +1,20 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  script:
+    - echo "Building the application..."
+    # Add your build commands here
+
+test:
+  script:
+    - echo "Running tests..."
+    # Add your test commands here
+
+deploy:
+  script:
+    - echo "Deploying the application..."
+    # Add your deployment commands here
+
